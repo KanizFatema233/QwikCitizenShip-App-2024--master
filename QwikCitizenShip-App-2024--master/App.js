@@ -27,6 +27,7 @@ import Lesson1 from "./App/screens/lesson1";
 import Lesson2 from "./App/screens/lesson2";
 import Pdfopener from "./App/screens/pdfopener";
 import CarouselScreen from "./carouselscreen";
+import LocationSelector from "./LocationSelector";
 
 import {
   useFonts,
@@ -153,12 +154,14 @@ export default function App() {
       }}
     >
       <Stack.Screen name="Carousel" component={CarouselScreen} />
+
       <Stack.Screen name="TabNavigator" component={TabNavigator} />
 
       <Stack.Screen name="Firstslider" component={Firstslider} />
       <Stack.Screen name="Secondslide" component={Secondslide} />
       <Stack.Screen name="Thirdslide" component={Thirdslide} />
       <Stack.Screen name="Location" component={Location} />
+      <Stack.Screen name="LocationSelector" component={LocationSelector} />
 
       <Stack.Screen name="Pdfopener" component={Pdfopener} />
       <Stack.Screen name="Lesson1" component={Lesson1} />
