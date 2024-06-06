@@ -64,7 +64,7 @@ const CarouselScreen = () => {
       {index === data.length - 1 && (
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.replace("TabNavigator")}
+          onPress={() => navigation.replace("LocationSelector")}
         >
           <Text style={styles.buttonText}>Get Started</Text>
         </TouchableOpacity>
